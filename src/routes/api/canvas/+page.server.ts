@@ -26,7 +26,8 @@ const isLocationValid = (longitude: number, latitude: number, accuracy: number) 
 	);
 };
 
-const ALPHANUM = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+// excluded characters: O, 0, I, i, l, 1
+const ALPHANUM = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnopqrstuvwxyz23456789";
 
 const randomChar = (): string => {
 	const idx = Math.floor(Math.random() * ALPHANUM.length);
