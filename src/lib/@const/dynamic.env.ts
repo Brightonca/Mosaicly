@@ -11,7 +11,7 @@ export const IS_PROD = import.meta.env.PROD;
 
 // export the root URL 
 // export const BASE_URL = IS_PROD ? "https://mosaicly.io" : "http://localhost:3000";
-export const BASE_URL = IS_PROD ? "mosaicly-seven.vercel.app" : "http://localhost:3000";
+export const BASE_URL = IS_PROD ? "https://mosaicly-seven.vercel.app" : "http://localhost:3000";
 
 // export the API URL
 export const API_URL = `${BASE_URL}/api`;
